@@ -1,0 +1,30 @@
+services:
+  node1:
+    build: ./docker-ubuntu
+    container_name: ubuntu_node1
+    ports:
+      - "2201:22"
+
+  node2:
+    build: ./docker-ubuntu
+    container_name: ubuntu_node2
+    ports:
+      - "2202:22"
+
+  node3:
+    build: ./docker-ubuntu
+    container_name: ubuntu_node3
+    ports:
+      - "2203:22"
+
+  node4:
+    build: ./docker-ubuntu
+    container_name: ubuntu_node4
+    ports:
+      - "2204:22"
+
+  node5:
+    build: ./docker-ubuntu
+    container_name: ubuntu_node5
+    ports:
+      - "2205:22"
